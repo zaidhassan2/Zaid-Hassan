@@ -1,0 +1,333 @@
+/* Ensure a minimum root font size for predictable rem units */
+html {
+    font-size: 16px; /* Set a baseline font size */
+}
+
+/* Tablets (≤991px) */
+@media (max-width: 991px) {
+    /* Contact Section (contact.css) */
+    .Contact {
+        padding: 15px;
+    }
+    .cm {
+        flex-direction: column;
+        padding: 5%;
+        align-items: center;
+    }
+    .cm a {
+        margin: 2% 0;
+        font-size: 60px;
+        width: 15%;
+    }
+    .sc {
+        margin-left: 0;
+        justify-content: center;
+    }
+    .find a {
+        margin: 2%;
+        font-size: 20px;
+        width: 5%;
+    }
+
+    /* Skills Section (skill.css) */
+    .main-skill {
+        padding: 15px 2%;
+    }
+    .skills {
+        padding: 15px;
+    }
+    .skill {
+        width: 100%;
+    }
+    #sk {
+        width: 50%;
+        margin: 2% auto;
+        font-size: 40px;
+    }
+    .def h1 {
+        font-size: 40px;
+    }
+
+    /* About Section (about.css) */
+    .about {
+        flex-direction: column;
+        height: auto;
+    }
+    .left, .right {
+        width: 100%;
+    }
+    .right {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .right img {
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    .about .left .about-info h1, h2 {
+        font-size: 2rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .about .left .about-info p1,
+    .about .left .about-info p.p1 {
+        margin: 1rem 0;
+        text-align: center;
+        font-size: 1.75rem; /* Increased further for better readability */
+    }
+    .Education {
+        flex-direction: column;
+    }
+    .inter, .BS {
+        margin: 2% 0;
+    }
+
+    /* Projects Section (project.css) */
+    .Projects {
+        padding: 15px;
+    }
+    .Projects h1 {
+        font-size: 40px;
+        margin: 1%;
+    }
+    .proj {
+        display: flex;
+        flex-direction: column;
+    }
+    .left, .right {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .projt {
+        margin: 2%;
+    }
+    #a {
+        margin-left: 0;
+        margin-top: 2%;
+        font-size: 20px;
+        padding: 8px 20px;
+    }
+    #c {
+        margin: 1%;
+        font-size: 14px;
+    }
+
+    /* Index Page Image (portfolio.css) */
+    .home-imag .img-item {
+        width: 50vw;
+        height: 50vw;
+        margin-left: 0;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .home-imag .img-box img {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+}
+
+/* Mobile (≤767px) */
+@media (max-width: 767px) {
+    /* Contact Section (contact.css) */
+    .Contact {
+        padding: 10px;
+    }
+    .cm {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cm a {
+        font-size: 40px;
+        margin: 10px 0;
+    }
+    .find a {
+        font-size: 20px;
+        width: 50px;
+    }
+
+    /* Skills Section (skill.css) */
+    .main-skill {
+        padding: 15px 5%;
+    }
+    .skill {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .skill span {
+        margin-bottom: 5px;
+    }
+    .skill-bar {
+        width: 100%;
+    }
+    #sk {
+        width: 80%;
+        font-size: 30px;
+    }
+
+    /* About Section (about.css) */
+    .about {
+        padding: 0.5rem;
+    }
+    .about .left .about-info h1, h2 {
+        font-size: 1.5rem;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0.5rem;
+    }
+    .about .left .about-info p1,
+    .about .left .about-info p.p1 {
+        font-size: 1.75rem; /* Increased to ensure the text is large enough */
+        margin: 0.5rem 0;
+        padding: 0 1rem;
+    }
+    .right {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .right img {
+        width: 60vw;
+        height: 60vw;
+        background-color: #0F766E;
+        border-radius: 50%;
+        padding: 5px;
+        box-shadow: 0 0 10px rgba(52, 211, 153, 0.5);
+        object-fit: cover;
+    }
+    .inter h1, .BS h1 {
+        font-size: 1.25rem;
+    }
+    .inter p, .BS p {
+        font-size: 0.875rem;
+    }
+    .inter, .BS {
+        margin: 1% 0;
+    }
+
+    /* Projects Section (project.css) */
+    .left, .right {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .projt {
+        margin: 10px 0;
+    }
+    #a {
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 18px;
+        padding: 5px 15px;
+    }
+    #c {
+        font-size: 12px;
+    }
+
+    /* Index Page Image (portfolio.css) */
+    .home-imag .img-item {
+        width: 60vw;
+        height: 60vw;
+        margin-left: 0;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .home-imag .img-box img {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+}
+
+/* Small Mobile (≤576px) */
+@media (max-width: 576px) {
+    /* Contact Section (contact.css) */
+    .cm a {
+        font-size: 30px;
+    }
+    .find a {
+        font-size: 18px;
+        width: 40px;
+    }
+
+    /* Skills Section (skill.css) */
+    #sk {
+        font-size: 24px;
+    }
+
+    /* About Section (about.css) */
+    .about .left .about-info h1, h2 {
+        font-size: 1.25rem;
+        width: 100%;
+    }
+    .about .left .about-info p1,
+    .about .left .about-info p.p1 {
+        font-size: 1.75rem; /* Kept consistent to ensure the text is large enough */
+    }
+    .right {
+        margin-top: 1.5rem;
+        object-fit: cover;
+    }
+    .right img {
+        width: 400vw;
+        height: 70vw;
+        background-color: #0F766E;
+        border-radius: 50%;
+        padding: 5px;
+        box-shadow: 0 0 10px rgba(52, 211, 153, 0.5);
+        object-fit: fill;
+    }
+    .inter h1, .BS h1 {
+        font-size: 1rem;
+    }
+    .inter p, .BS p {
+        font-size: 0.75rem;
+    }
+
+    /* Projects Section (project.css) */
+    #a {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    #c {
+        font-size: 10px;
+    }
+
+    /* Index Page Image (portfolio.css) */
+    .home-imag .img-item {
+        width: 70vw;
+        height: 70vw;
+        margin-left: 0;
+        margin-bottom: 20px;
+        margin-top: 0px;
+
+    }
+}
+/* For devices smaller than 767px */
+@media (max-width: 767px) {
+    .about .left .about-info p1,
+    .about .left .about-info p.p1 {
+      display: block;
+      width: 90%;
+      max-width: 500px;
+      margin: 0 auto;
+      font-size: 1.6rem;
+      line-height: 1.5;
+      text-align: justify;
+      word-break: break-word;
+    }
+  }
+  
+  /* For very small devices (smaller than 576px) */
+  @media (max-width: 576px) {
+    .about .left .about-info #c{
+      font-size: 1.5rem;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0.5rem;
+    }
+  }
+  

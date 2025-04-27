@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap);
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Poppins',sans-serif;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+color:#F3F4F6;
+text-decoration:none;
+}
+.navbar{
+	background-attachment: fixed;
+	width:100%;
+	padding:25px 2%;
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+	z-index: 100;
+background-color: #1F2937;
+
+}
+.navbar .logo{
+	font-size:30px;
+	font-weight:1000;
+}
+.navbar ul{
+	display:flex;
+}
+.navbar li{
+	list-style: none;
+	margin:15px;
+}
+.navbar ul li a{
+font-size: 20px;
+font-weight:700 ;
+transition:.5s
+}
+.navbar ul li:hover a,
+.navbar ul li.active a
+{
+    color:#34D399;
+}
+.main-skill{
+	background-color: #020024;
+	color:#F3F4F6;
+}
+.skills {
+     width: 100%;
+    padding: 20px;
+    margin: 0; 
+	
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 73%;
+
+}
+.skill span {
+
+   min-width: 100px;
+    text-align: left;
+    margin-right: 15px;
+	color: #F3F4F6;
+}
+.skill-bar {
+     height: 20px;
+    background-color: #34D399;
+    border-radius: 4px;
+    transition: width 0.3s ease-in-out;
+}
+.main-skill{
+	padding:25px 2%;
+	text-align: justify;
+}
+#sk{
+
+	width:30%;
+	margin:2% 30%;
+	text-align: center;
+	
+	font-size: 50px;
+	font-weight: 1000;
+/*	border-radius: 30%;*/
+	color:#34D399;
+/*border: 5px solid blueviolet;
+box-shadow: 0 0 10px darkblue;*/
+}
+.def h1{
+	color:#34D399;;
+	font-weight: 1000;
+	font-size: 50px;
+}
+#a,#b{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+strong{
+	font-size:25px;
+	color:blue;
+	font-weight: 30px;
+}
+
+
+
+
+
+
+.skill:hover .skill-bar {
+    opacity: 0.8;
+	background-color: #34D399;
+}
+strong{
+	color:  #34D399;
+}
